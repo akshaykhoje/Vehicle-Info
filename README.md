@@ -2,6 +2,20 @@
 
 ## About The Project
 
+This is a mobile apllication for Vehicle Number Plate Detection & Recognition 
+<h4 align="left">Places where this app can be used as solution:</h4>
+<ul>
+ <li>Managing information about car park usage</li>
+ <li>Verifying RTO registration of vehicle</li>
+ <li>Flexible and automatic entry of vehicle at large events,commercial places etc.</li>
+ <li>Effective enforcement of traffic rules</li>
+</ul>
+<h4 align="left">Understanding problem :</h4>
+<ul>
+ <li>Number plate detection : locating number plate from provided image using image processing</li>
+ <li>Extracting text from the detected Number Plate: Extracting alphanumeric characters fromed croped license plate using OCR</li>
+</ul>
+
 
 
 ## Interface
