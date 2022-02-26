@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This is a mobile apllication for Vehicle Number Plate Detection & Recognition 
+This is a mobile application for Vehicle Number Plate Detection & Recognition 
 <h4 align="left">Places where this app can be used as solution:</h4>
 <ul>
  <li>Managing information about car park usage</li>
@@ -15,6 +15,16 @@ This is a mobile apllication for Vehicle Number Plate Detection & Recognition
  <li>Number plate detection : locating number plate from provided image using image processing</li>
  <li>Extracting text from the detected Number Plate: Extracting alphanumeric characters fromed croped license plate using OCR</li>
 </ul>
+<h4 align="left">Solution Appraoch:</h4>
+<ul>
+ <li>In our app we can provide image from gallery or capture it using the inbuilt camera </li>
+ <li>Selected image is sent to flask backend as URI (HTTP request to backend server)</li>
+ <li>Backend detects the respective media and encode the acquired BINARY_CONTENT in a single media file in the same directory.</li>
+ <li>Image processing is done using OpenCv functions like imutlis, greyscale conversion ,canny edge detection ,contour detection for extracting number plate.</li>
+ <li> pytesseract OCR is used for extracting alphanumeric characters from detected number plate.</li>
+ <li>Extracted number is sent back to front end (await fetch call)where it is displayed below VAAHAN webview and Copy-to-clipboard option get enabled.</li>
+</ul>
+ 
 
 
 
@@ -61,7 +71,7 @@ create a virtual environment using virtualenv
 python -m virtualenv <env_name>
 source <env_name>/bin/activate
 ```
-Install all the requirements using pip [requirements.txt](./backend/requirements.txt)
+Install all the requirements using pip command [requirements.txt](./backend/requirements.txt)
 
 ```
 pip install -r requirements.txt
