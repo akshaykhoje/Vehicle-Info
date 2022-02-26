@@ -46,9 +46,10 @@ npm install
 expo start
 ```
 ```
+cd backend
 flask run -h 192.168.31.108
 ```
-6. You can run it on your android emulator to use this project
+6. You can run it on your android emulator OR using expo app to use this project
 
 ## Mentor
 
