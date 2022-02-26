@@ -13,9 +13,9 @@ This is a mobile application for Vehicle Number Plate Detection & Recognition
 <h4 align="left">Understanding problem :</h4>
 <ul>
  <li>Number plate detection : locating number plate from provided image using image processing</li>
- <li>Extracting text from the detected Number Plate: Extracting alphanumeric characters fromed croped license plate using OCR</li>
+ <li>Extracting text from the detected Number Plate: Extracting alphanumeric characters from cropped license plate using OCR</li>
 </ul>
-<h4 align="left">Solution Appraoch:</h4>
+<h4 align="left">Solution Approach:</h4>
 <ul>
  <li>In our app we can provide image from gallery or capture it using the inbuilt camera </li>
  <li>Selected image is sent to flask backend as URI (HTTP request to backend server)</li>
