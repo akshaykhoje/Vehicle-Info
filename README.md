@@ -20,7 +20,7 @@ This is a mobile application for Vehicle Number Plate Detection & Recognition
  <li>In our app we can provide image from gallery or capture it using the inbuilt camera </li>
  <li>Selected image is sent to flask backend as URI (HTTP request to backend server)</li>
  <li>Backend detects the respective media and encode the acquired BINARY_CONTENT in a single media file in the same directory.</li>
- <li>Image processing is done using OpenCv functions like imutlis, greyscale conversion ,canny edge detection ,contour detection for extracting number plate.</li>
+ <li>Image processing is done using OpenCV functions like imutils, greyscale conversion ,canny edge detection ,contour detection for extracting number plate.</li>
  <li> pytesseract OCR is used for extracting alphanumeric characters from detected number plate.</li>
  <li>Extracted number is sent back to front end (await fetch call)where it is displayed below VAAHAN webview and Copy-to-clipboard option get enabled.</li>
 </ul>
