@@ -119,7 +119,7 @@ export default class App extends Component {
         </View>
 
         <Text style={styles.evr1}>
-          Upload your vehicle plate number and get the owner info at one click!
+          Upload your vehicle number plate image and get the owner info at one click !
         </Text>
         <Image
           // style={{ width: 180, height: 180, marginTop: 90, marginLeft: 100 }}
