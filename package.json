@@ -35,7 +35,8 @@
     "react-native-screens": "~3.10.1",
     "react-native-web": "0.17.1",
     "react-native-webview": "11.15.0",
-    "reanimated-bottom-sheet": "^1.0.0-alpha.22"
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22",
+    "url-parse": "^1.5.10"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
